@@ -55,3 +55,35 @@ table, th, td{
     font-weight: bold;
     color: white;
 }
+form{
+    text-align: center;
+    margin-top: 0;
+}
+.submit{
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    color: #ffffff;
+    border:none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+textarea{
+    height: 100px;
+}
+.submit:hover{
+    background-color:#43a09d;;
+}
+input, textarea{
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color:#787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
