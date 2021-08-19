@@ -5,6 +5,14 @@
         <link  rel="stylesheet" href="miestilo.css">
     </head>   
     <body>
+        <!--header start-->
+        <div id="header" class="section">
+            <img alt="" class="img-circle" src="imagenes/enrique.JPG">
+            <p>Enrique Ruiz</p>
+        </div>
+        <!--header end-->
+
+        <!--about me section start-->
         <div class="section">
             <h1><span>Sobre mí</span></h1>
             <p>
@@ -13,9 +21,12 @@
                 También puedo desarrollar sitios web y usar mis habilidades de codificación para conseguir un mejor trabajo.  Y lo aprendí todo en <strong> SoloLearn </strong>, donde desarrollan tu autoestima y te mantienen motivado.¡Te divertirás, recibirás ayuda y aprenderás en el camino!
             </p>
             <p class="quote">
-                "Declare variables, no guerra"   
+                "Declara variables, no guerra"   
             </p>
         </div>
+        <!--about me section end-->
+        
+        <!--My skills section start-->
         <div class="section">
             <h1><span>mis habilidades</span></h1>
             <ul>
@@ -24,6 +35,16 @@
                 <li>JavaScript</li>
             </ul>
         </div> 
+        <!--my skills section end-->
+
+        <!--media seletion start-->
+        <div class="section">
+            <h1><span>my media</span></h1>
+            <p style="text-align: center; margin-bottom: 10px;">aqui dejo alguno de mis gustos el <strong>Rock</strong> !!</p>
+            <iframe height="150" width="300" src="https://www.youtube.com/watch?v=-2VPKWwl5Rw" allowfullscreen></iframe>
+        </div>
+
+        <!--My schedule section start-->
         <div class="section">
             <h1><span>Mi horario de codificación</span></h1>
             <table>
@@ -77,14 +98,40 @@
                 </tr>
             </table>
         </div>
+        <!--My schedule section end-->
+        
+        <!--Form section start-->
         <div class="section">
             <h1><span>contáctame</span></h1>
             <form>
-                <input name="name" type="text"/><br/>   
-                <input name="email" type="email"/><br/>
-                <textarea name="message"></textarea>
+                <input name="name" placeholder="Name" type="text" required/><br/>   
+                <input name="email" placeholder="Email" type="email"required/><br/>
+                <textarea name="message" placeholder="Message"required></textarea>
                 <input type="submit" value="SEND" class="submit"/>
             </form>   
+        </div>
+        <!--Form section end-->
+
+        <!--Contacts section start-->
+        <div class="section" id="contacts">
+            <h1><span>Sígueme</span></h1>
+            <div>
+                <a href="https://www.instagram.com/enri96ruiz/" target="_blank">
+                    <img alt="instagram" src="imagenes/instagram.png"/>
+                </a>
+                <a href="https://www.facebook.com/quike.ruiz.79" target="_blank">
+                    <img alt="facebook" src="imagenes/facebook.png"/>
+                </a>
+                
+                <a href="https://twitter.com/Enriqu3_Ruiz" target="_blank">
+                    <img alt="twitter" src="imagenes/twitter.png"/>
+                </a>
+            </div>
+        </div>
+        <!--contacts section end-->
+
+        <div class="copyright">
+            &copy; 2021 mi blog. todos los derechos reservados.
         </div>
     </body> 
 </html>
